@@ -1,0 +1,23 @@
+
+h1{
+     text-shadow: 2px 2px 2px #000000;
+     letter-spacing: 15px;
+     word-spacing: 15px;
+}
+
+p{
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-indent: 30px;
+    line-height: 3;
+    white-space: 3;
+  
+}
+a{
+    text-decoration: none;
+    display: block;
+}
+
+.tipoDisplay{
+    visibility: hidden;
+}

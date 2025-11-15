@@ -1,0 +1,39 @@
+
+/*
+
+*{
+    font-size: large;
+    color: blueviolet;
+}
+
+
+p{
+    color: aqua;
+}
+
+#parrafoDos{
+    color: brown;
+}
+#parrafoTres{
+    color: green;
+}
+
+.parrafo{
+    background-color: yellow;
+}
+.parrafoDos{
+    background-color: yellow;
+    font-family: 'Courier New', Courier, monospace;
+    border: 15px solid black;
+}
+
+
+h1,h2,h3,h4,h5,h6,span{
+    color: darkblue;
+}
+    */
+    
+p.parrafoSubclase{
+    background-color: green;
+    color: yellow;
+}

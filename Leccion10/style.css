@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 50px;
+    margin: 25px 80px;
+}
+
+.container div img {
+    width: 100%;
+}
+
+div p{
+    text-align: justify;
+}
+
+.item {
+    border: 2px solid rgba(88, 87, 87, 0.173);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px rgba(88, 87, 87, 0.173);
+
+}
+
+
+
+
+.roboto-uniquifier {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+h1, h2 {
+    font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+
+}
+
+h1{
+    border-left:  5px solid red;
+    padding-left: 15px;
+    margin-left: 20px;
+    margin-top: 70px;
+}
+
+footer h1{
+    font-size: 8rem;
+    color:red;
+    font-weight: bold;
+    border-left: 0;
+    background-color: gray;
+    padding:0;
+    margin:0;
+    text-align: end;
+}
+
+footer p{
+    text-align: center;
+    background-color: gray;
+    color: white;
+
+}
+
+nav {
+    background-color: black;
+    padding: 15px;
+    position:fixed;
+    width: 100%;
+    top: 0;
+    left :0;
+}
+nav ul{ 
+    text-align: center;
+}
+
+nav ul li{
+    display: inline;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:white;
+    padding-left: 40px;
+
+}
+nav ul li a:hover{
+    background-color: gray;
+    padding: 17px;
+}

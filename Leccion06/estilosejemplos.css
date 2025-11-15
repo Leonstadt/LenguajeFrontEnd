@@ -1,0 +1,24 @@
+
+*{
+font-size: xx-large;
+}
+
+
+h1{
+    color: blue;
+}
+#Ejemplo{
+    color: brown;
+
+}
+.punto{
+    color: blueviolet;
+
+}
+h3.titulo{
+    color: blue;
+}
+
+h2,h3{
+    border: 15px solid black;
+}

@@ -1,0 +1,36 @@
+/*Selector descendiente
+
+article p{
+    background-color: rgba(255, 0, 0, 0.523);
+}
+
+article p strong {
+    color:green
+} */
+
+/*Selector Child
+article > p {
+    background-color: green;
+}*/
+
+/*
+h2 + p{
+    background-color: blueviolet;
+}
+
+h2 ~ p{
+    background-color: blueviolet;
+}*/
+
+/* Selector Pseudo Clase
+p:hover {
+    background-color: yellow;
+    font-size: xx-large;
+}*/
+
+/* Selector pseudo elementos
+p::first-line{
+    font-weight: bold;
+    color:blueviolet;
+}*/
+
