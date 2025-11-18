@@ -1,0 +1,106 @@
+.banner {
+  height: 200px;
+  background-image: url("./images/6973983-nyan-cat.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+nav {
+  background-color: rgb(202, 74, 74);
+  padding: 15px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+nav ul {
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  padding-left: 40px;
+}
+nav ul li a:hover {
+  background-color: gray;
+  padding: 17px;
+}
+
+h1,
+h2 {
+  text-transform: uppercase;
+}
+
+p.importante {
+  font-weight: bold;
+  color: red;
+}
+
+p {
+  font-size: 16px;
+  font-style: italic;
+}
+
+h1 {
+  color: red;
+  margin-right: 10px;
+  font-size: 2rem;
+}
+
+.card {
+  border: 2px solid rgba(88, 87, 87, 0.173);
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 5px 5px rgba(88, 87, 87, 0.173);
+}
+
+.card-block {
+  display: block;
+  width: 100%;
+}
+
+.card-inline {
+  display: inline;
+  background: #d7eaff;
+}
+
+.card-inlineBlock {
+  display: inline-block;
+  width: 130px;
+  background: #ffe7b3;
+}
+
+.card-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  background: #d6ffd6;
+  border: 2px solid #333;
+  border-radius: 8px;
+}
+
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+  margin: 25px 80px;
+}
+
+.cards-container img {
+  width: 100%;
+}
+
+#destacado {
+  border: 3px solid red;
+}
+
+footer {
+  background: linear-gradient(90deg, white, gray);
+}
