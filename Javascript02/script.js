@@ -28,7 +28,7 @@ console.log(mayorEdad);
 
 let numeroCuatro = "500";
 let segundoNumero = 100;
-let sumar = parseInt(numeroCuatro) + segundoNumero;
+let sumar = parseFloat(numeroCuatro) + segundoNumero;
 console.log(`El numero es ${sumar}`);
 
 let edadActual = 25;
