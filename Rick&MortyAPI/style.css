@@ -1,15 +1,16 @@
-.contenedor {
+.container {
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(200px, 1fr));
     gap:20px;
     margin: 30px;
 }
 
-.tarjeta-personaje{
-    border: 1px solid black;
+.card {
+    border: 1px solid #ddd;
     box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
 }
 
-.imagen-personaje{
-    width:100%;
-}
+

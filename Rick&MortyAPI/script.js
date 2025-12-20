@@ -24,25 +24,18 @@ function obtenerTarjetaPersonaje(tarjetaPersonaje) {
     let bodyelement = document.getElementById("detallePersonaje")
 
     bodyelement.innerHTML += ` 
-    <div class="tarjeta-personaje">
-            <img class="imagen-personaje" src="${tarjetaPersonaje.image}" alt="${tarjetaPersonaje.name}">
-            <div class="tarjeta-cuerpo">
-                <h5>${tarjetaPersonaje.name}</h5>
+    <div class="card" style="width 18rem; margin: 10px; color:black;">
+        <img src="${tarjetaPersonaje.image}" class="card-img-top" alt="${tarjetaPersonaje.name}" style="height: 200px; object-fit:contain;">
+            <div class="card-body">
+                <h5 class="card-title">${tarjetaPersonaje.name}</h5>
                 <p>
                     Estado: ${tarjetaPersonaje.status}<br>
                     Especie: ${tarjetaPersonaje.species} <br>
                     Género: ${tarjetaPersonaje.gender} <br>
                 </p>
             </div>
-
-
     </div>
-    
-    
-    
-    
-    `
-
+    `;
 
 
 
